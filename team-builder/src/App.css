@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: peachpuff; 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.form-box {
+  background-color: #b9bbff;
+  width: 400px;
+  height: 400px;
+}
+
+.member {
+  background: #b9fffd;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
+  margin-top: 5px;
+}
+
+button {
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-top: 15px;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #000;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.12),
+      0 2px 2px 1px rgba(0, 0, 0, 0.24);
+  transition: all 0.2 ease-in;
+}
