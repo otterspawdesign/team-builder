@@ -15,7 +15,7 @@ function App() {
     return (
         <div className='App'>
             <header className='App-header'>
-                <h2>Member List</h2>
+                <h2>Team Members</h2>
                 <div className='form-box'>
                     <Form addNewMember={addNewMember} />
                     <Member memberList={members} />

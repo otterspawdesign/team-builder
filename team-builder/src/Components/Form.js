@@ -29,7 +29,7 @@ const Form = props => {
                 value={member.name}
             />
 
-            <label htmlFor='email'>Email</label>
+            <label htmlFor='email'>Contact</label>
             <input
                 id='email'
                 name='email'
@@ -39,7 +39,7 @@ const Form = props => {
                 value={member.email}
             />
 
-            <label htmlFor='role'>What I do</label>
+            <label htmlFor='role'>Role</label>
             <input
                 id='role'
                 name='role'
